@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Scrape Prismacolor to get markers palette">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<!--
+Sample DOM. See Prismacolor website:
+- PM: http://www.prismacolor.com/products/art-markers/double-ended
+- PB: http://www.prismacolor.com/products/art-markers/brush-tip-markers
+-->
+<ul id="colorbar" class="count200" style="background: rgb(239, 194, 83); left: 0px; width: 2144px;">
+  <li id="color0" title="Cream PB 23" style="background: rgb(252, 255, 212);"><div><hgroup><h3>Cream</h3><h4>PB 23</h4></hgroup><ul><li><abbr title="Red, Green, Blue">RGB</abbr>: 252,255,212</li><li><abbr title="Cyan, Magenta, Yellow, Black">CMYK</abbr>: 1,0,17,0</li><li class="notes"><em>*Also sold individually</em></li></ul></div></li>
+  <li id="color1" title="Deco Yellow PB 131" style="background: rgb(245, 245, 140);"><div><hgroup><h3>Deco Yellow</h3><h4>PB 131</h4></hgroup><ul><li><abbr title="Red, Green, Blue">RGB</abbr>: 245,245,140</li><li><abbr title="Cyan, Magenta, Yellow, Black">CMYK</abbr>: 4,4,45,0</li><li class="notes"><em>*Also sold individually</em></li></ul></div></li>
+  <li id="color2" title="Canary Yellow PB 19" style="background: rgb(247, 247, 3);"><div><hgroup><h3>Canary Yellow</h3><h4>PB 19</h4></hgroup><ul><li><abbr title="Red, Green, Blue">RGB</abbr>: 247,247,3</li><li><abbr title="Cyan, Magenta, Yellow, Black">CMYK</abbr>: 3,3,99,0</li><li class="notes"><em>*Also sold individually</em></li></ul></div></li>
+  <li id="color3" title="Tulip Yellow PB 21" style="background: rgb(252, 240, 89);"><div><hgroup><h3>Tulip Yellow</h3><h4>PB 21</h4></hgroup><ul><li><abbr title="Red, Green, Blue">RGB</abbr>: 252,240,89</li><li><abbr title="Cyan, Magenta, Yellow, Black">CMYK</abbr>: 1,6,65,0</li><li class="notes"><em>*Also sold individually</em></li></ul></div></li>
+  <li id="color4" title="Sunburst Yellow PB 17" style="background: rgb(250, 240, 51);";"><div><hgroup><h3>Sunburst Yellow</h3><h4>PB 17</h4></hgroup><ul><li><abbr title="Red, Green, Blue">RGB</abbr>: 250,240,51</li><li><abbr title="Cyan, Magenta, Yellow, Black">CMYK</abbr>: 2,6,80,0</li><li class="notes"><em>*Also sold individually</em></li></ul></div></li>
+  <li id="color5" title="Jasmine PB 132" style="background: rgb(255, 212, 115); color:"><div><hgroup><h3>Jasmine</h3><h4>PB 132</h4></hgroup><ul><li><abbr title="Red, Green, Blue">RGB</abbr>: 255,212,115</li><li><abbr title="Cyan, Magenta, Yellow, Black">CMYK</abbr>: 0,17,55,0</li><li class="notes"><em>*Also sold individually</em></li></ul></div></li>
+</ul>
+</body>
+</html>
